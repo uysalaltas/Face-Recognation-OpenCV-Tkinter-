@@ -33,7 +33,7 @@ while True:
         else:
             cv2.putText(im, "Not found!", (0, 30), font, 1, (255, 0, 0), 2)
 
-    cv2.imshow('im',im)
+    cv2.imshow('im', im)
 
     if cv2.waitKey(10) & 0xFF == ord('q'):
         break
