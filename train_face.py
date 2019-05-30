@@ -71,7 +71,6 @@ def train_faces():
 
     for imagePath in get_imagePath:
 
-
         PIL_img = Image.open(imagePath).convert('L')
         img_numpy = np.array(PIL_img,'uint8')
         id = int(os.path.split(imagePath)[-1].split(".")[1])
@@ -100,6 +99,10 @@ def show_frame():
 
 def create_path():
     global newpath, id_input, label1, button
+
+    if not os.path.exists('trained/') and not os.path.exists('face_data/'):
+        os.makedirs('trained/')
+        os.makedirs('face_data/')
 
     button_path.pack_forget()
     label1 = tk.Label(mainWindow, text="Please capture when you ready!", relief=tk.GROOVE)
