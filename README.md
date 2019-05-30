@@ -31,6 +31,8 @@ References:
 2. [Python 3](https://pypi.org/project/opencv-python/)
 3. [Numpy](https://pypi.org/project/numpy/)
 
+
+
 ## Installing
 1. Download the project as zip file and unzip.
 2. Run 'train_face.py'. This python file will create dataset for you. You can do that with command file.
@@ -42,3 +44,7 @@ References:
 
 * If you have got trouble;
 You can reach me from my e-mail: uysalaltas@gmail.com
+
+
+# License
+This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the LICENSE file for details
