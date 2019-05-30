@@ -32,11 +32,13 @@ References:
 3. [Numpy](https://pypi.org/project/numpy/)
 
 ## Installing
-1. Create 2 empty folders named 'face_data' and 'trained' inside the project.
-2. Run 'train_face.py'. This python file will create dataset for you. 
+1. Download the project as zip file and unzip.
+2. Run 'train_face.py'. This python file will create dataset for you. You can do that with command file.
+```python train_face.py```
 3. Create ID (for example, you can give you name) and press capture. Then follow the steps in program.
 4. After you saw "Done!" in label you can close the frame
 5. Run 'detect_main.py' and enjoy it!
+```python detect_main.py```
 
 * If you have got trouble;
 You can reach me from my e-mail: uysalaltas@gmail.com
