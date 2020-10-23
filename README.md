@@ -1,6 +1,6 @@
-# Face-Recognation-OpenCV-Tkinter
+# Face-Recognition-OpenCV-Tkinter
 
-Face detection and recognation algorithm with OpenCV and Tkinter
+Face detection and recognition algorithm with OpenCV and Tkinter
 
 ## Theory
 Using 2 algorithm for 2 different process.
